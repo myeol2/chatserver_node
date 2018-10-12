@@ -1,0 +1,46 @@
+#wrap{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#container{
+  height: 80vh;
+  margin-top: 50px;
+
+}
+
+#content{
+  width: 400px;
+  height: 100%;
+  margin:auto;
+  border-radius: 20px;
+  background-color: lightblue;
+  text-align:center;
+}
+
+#chat{
+  height: 90%;
+  padding: 0 20px;
+  overflow-y: auto;
+}
+
+.message{
+  width: 90%;
+  margin: auto;
+  margin-top: 10px;
+}
+
+.other{
+  right: 0%;
+  text-align:right;
+}
+.connect{
+  text-align: center;
+  color: green;
+}
+.disconnect{
+  text-align: center;
+  color: indianred;
+}
+
